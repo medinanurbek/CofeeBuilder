@@ -55,6 +55,7 @@ public class Matcha implements Drink {
 
         @Override
         public Builder setSugar(int spoons) {
+            if (spoons < 0) throw new IllegalArgumentException("Sugar spoons cannot be negative");
             this.sugarSpoons = spoons;
             return this;
         }
