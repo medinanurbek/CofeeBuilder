@@ -24,5 +24,13 @@ public class DrinkDirector {
                 .setWhippedCream(false)
                 .build();
     }
+
+    public Drink makeAmericano(Coffee.Builder builder) {
+        return builder.setSize(("large"))
+                .setMilk(false)
+                .setSugar(0)
+                .setWhippedCream(false)
+                .build();
+    }
 }
 

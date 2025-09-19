@@ -30,7 +30,7 @@ public class Coffee implements Drink {
                 "size = " + size +
                 ", milk = " + hasMilk +
                 ", sugar = " + sugarSpoons +
-                ", whippedCream = " + ']';
+                ", whippedCream = " + hasWhippedCream + ']';
     }
 
     // Builder
