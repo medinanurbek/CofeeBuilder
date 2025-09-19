@@ -17,7 +17,7 @@ public class Coffee implements Drink {
     public String getName() { return "Coffee"; }
     @Override
     public String getSize() { return size; }
-    @Override
+    @Override 
     public boolean hasMilk() { return hasMilk; }
     @Override
     public int getSugarSpoons() { return sugarSpoons; }
@@ -30,8 +30,7 @@ public class Coffee implements Drink {
                 "size = " + size +
                 ", milk = " + hasMilk +
                 ", sugar = " + sugarSpoons +
-                ", whippedCream = " + hasWhippedCream +
-                ']';
+                ", whippedCream = " + ']';
     }
 
     // Builder

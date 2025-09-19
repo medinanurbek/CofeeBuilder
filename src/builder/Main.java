@@ -11,6 +11,6 @@ public class Main {
         System.out.println("Latte: " + Latte);
         System.out.println("Cappuccino: " + cappuccino);
         System.out.println("MatchaLatte: " + matchaLatte);
-
+        System.out.println(Latte.getSize());
     }
 }
